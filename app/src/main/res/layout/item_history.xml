@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center_vertical" android:orientation="horizontal"
+    android:padding="12dp">
+    <ImageView android:layout_width="52dp" android:layout_height="52dp"
+        android:background="@drawable/bg_icon_container" android:padding="10dp"
+        android:src="@drawable/ic_lotus" />
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_marginStart="14dp" android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/h_title"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="@color/text_dark" android:textSize="15sp" android:textStyle="bold" />
+        <TextView android:id="@+id/h_dur"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="@color/text_gray" android:textSize="13sp" />
+        <TextView android:id="@+id/h_time"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="@color/text_gray" android:textSize="12sp" />
+    </LinearLayout>
+    <ImageView android:layout_width="22dp" android:layout_height="22dp"
+        android:src="@drawable/ic_chevron" android:tint="@color/text_dark" />
+</LinearLayout>

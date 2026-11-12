@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="52dp"
+    android:gravity="center_vertical" android:orientation="horizontal">
+    <TextView android:id="@+id/st_label"
+        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+        android:textColor="@color/text_dark" android:textSize="15sp" />
+    <TextView android:id="@+id/st_minus"
+        android:layout_width="38dp" android:layout_height="38dp"
+        android:background="@drawable/bg_circle_purple" android:clickable="true" android:focusable="true"
+        android:gravity="center" android:text="−" android:textColor="@color/purple_primary"
+        android:textSize="22sp" android:textStyle="bold" />
+    <TextView android:id="@+id/st_value"
+        android:layout_width="48dp" android:layout_height="wrap_content" android:gravity="center"
+        android:textColor="@color/text_dark" android:textSize="18sp" android:textStyle="bold" />
+    <TextView android:id="@+id/st_plus"
+        android:layout_width="38dp" android:layout_height="38dp"
+        android:background="@drawable/bg_circle_purple" android:clickable="true" android:focusable="true"
+        android:gravity="center" android:text="+" android:textColor="@color/purple_primary"
+        android:textSize="22sp" android:textStyle="bold" />
+</LinearLayout>

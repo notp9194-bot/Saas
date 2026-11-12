@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_page" android:orientation="vertical">
+
+    <FrameLayout android:id="@+id/container"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="68dp"
+        android:layout_margin="12dp" android:background="@drawable/bg_rounded_card"
+        style="@style/SoftShadow" android:orientation="horizontal">
+
+        <LinearLayout android:id="@+id/nav_home" style="@style/NavItem">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@drawable/ic_home" android:tint="@color/nav_tint" />
+            <TextView style="@style/NavLabel" android:text="Home" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/nav_history" style="@style/NavItem">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@drawable/ic_history" android:tint="@color/nav_tint" />
+            <TextView style="@style/NavLabel" android:text="History" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/nav_settings" style="@style/NavItem">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@drawable/ic_settings" android:tint="@color/nav_tint" />
+            <TextView style="@style/NavLabel" android:text="Settings" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

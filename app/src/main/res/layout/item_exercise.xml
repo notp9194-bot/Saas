@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ex_root" style="@style/SoftShadow"
+    android:layout_width="0dp" android:layout_height="wrap_content"
+    android:layout_weight="1" android:layout_margin="6dp"
+    android:background="@drawable/bg_rounded_card" android:backgroundTint="@color/card_blue"
+    android:clickable="true" android:focusable="true"
+    android:gravity="center_horizontal" android:orientation="vertical"
+    android:paddingBottom="18dp" android:paddingTop="18dp">
+    <ImageView android:id="@+id/ex_icon"
+        android:layout_width="44dp" android:layout_height="44dp"
+        android:background="@drawable/bg_circle_purple" android:backgroundTint="@color/surface"
+        android:padding="10dp" />
+    <TextView android:id="@+id/ex_title"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:textColor="@color/text_dark"
+        android:textSize="15sp" android:textStyle="bold" />
+    <TextView android:id="@+id/ex_label"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="2dp" android:textColor="@color/text_gray" android:textSize="12sp" />
+</LinearLayout>

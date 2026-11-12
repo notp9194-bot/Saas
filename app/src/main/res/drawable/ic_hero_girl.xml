@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp" android:height="220dp"
+    android:viewportWidth="200" android:viewportHeight="220">
+    <!-- leaves -->
+    <path android:fillColor="#B9A4F5" android:pathData="M10,215 C0,170 20,130 52,118 C62,150 50,195 10,215 Z" />
+    <path android:fillColor="#9B7BFF" android:pathData="M34,218 C28,180 44,150 70,140 C76,168 66,200 34,218 Z" />
+    <!-- shirt -->
+    <path android:fillColor="#8B5CF6" android:pathData="M28,220 C28,172 60,150 100,150 C140,150 172,172 172,220 Z" />
+    <path android:fillColor="#7C4DFF" android:pathData="M88,150 L100,172 L112,150 Z" />
+    <!-- neck -->
+    <path android:fillColor="#F2C6A5" android:pathData="M88,126 L112,126 L112,154 C108,164 92,164 88,154 Z" />
+    <!-- hair back + bun -->
+    <path android:fillColor="#2A2233" android:pathData="M100,2 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" />
+    <path android:fillColor="#2A2233" android:pathData="M50,84 C50,34 150,34 150,84 C150,120 132,134 100,134 C68,134 50,120 50,84 Z" />
+    <!-- face -->
+    <path android:fillColor="#F8D7BD" android:pathData="M64,86 C64,54 136,54 136,86 C136,116 120,130 100,130 C80,130 64,116 64,86 Z" />
+    <!-- fringe -->
+    <path android:fillColor="#2A2233" android:pathData="M60,84 C62,46 138,46 140,84 C124,68 90,60 60,84 Z" />
+    <!-- eyes -->
+    <path android:pathData="M79,94 Q86,100 93,94 M107,94 Q114,100 121,94"
+        android:strokeColor="#2A2233" android:strokeWidth="2.6" android:strokeLineCap="round" android:fillColor="#00000000" />
+    <!-- cheeks -->
+    <path android:fillColor="#F4A6A6" android:fillAlpha="0.5" android:pathData="M72,106 m-7,0 a7,5 0 1,0 14,0 a7,5 0 1,0 -14,0" />
+    <path android:fillColor="#F4A6A6" android:fillAlpha="0.5" android:pathData="M128,106 m-7,0 a7,5 0 1,0 14,0 a7,5 0 1,0 -14,0" />
+    <!-- smile -->
+    <path android:pathData="M92,111 Q100,118 108,111"
+        android:strokeColor="#C46A6A" android:strokeWidth="2.4" android:strokeLineCap="round" android:fillColor="#00000000" />
+</vector>

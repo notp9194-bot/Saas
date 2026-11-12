@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_page" android:fillViewport="true" android:scrollbars="none">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:orientation="vertical"
+    android:paddingBottom="32dp" android:paddingEnd="24dp" android:paddingStart="24dp" android:paddingTop="48dp">
+
+    <ImageView android:layout_width="84dp" android:layout_height="84dp" android:src="@drawable/ic_lotus" />
+    <TextView android:id="@+id/tv_title"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="18dp" android:text="Welcome Back"
+        android:textColor="@color/text_dark" android:textSize="28sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" android:gravity="center"
+        android:textColor="@color/text_gray" android:textSize="15sp" />
+
+    <EditText android:id="@+id/et_name" style="@style/AuthField"
+        android:hint="Full name" android:inputType="textPersonName|textCapWords" android:visibility="gone" />
+    <EditText android:id="@+id/et_email" style="@style/AuthField"
+        android:layout_marginTop="28dp"
+        android:hint="Email" android:inputType="textEmailAddress" />
+    <EditText android:id="@+id/et_pass" style="@style/AuthField"
+        android:hint="Password" android:inputType="textPassword" />
+    <EditText android:id="@+id/et_confirm" style="@style/AuthField"
+        android:hint="Confirm password" android:inputType="textPassword" android:visibility="gone" />
+
+    <TextView android:id="@+id/tv_error"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:textColor="@color/red"
+        android:textSize="13sp" android:visibility="gone" />
+
+    <TextView android:id="@+id/btn_primary"
+        android:layout_width="match_parent" android:layout_height="54dp"
+        android:layout_marginTop="22dp" android:background="@drawable/bg_purple_gradient"
+        android:clickable="true" android:focusable="true" android:gravity="center"
+        android:textColor="@color/white" android:textSize="17sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tv_switch"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:clickable="true" android:focusable="true"
+        android:padding="6dp" android:textColor="@color/purple_primary"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView android:id="@+id/btn_guest"
+        android:layout_width="match_parent" android:layout_height="50dp"
+        android:layout_marginTop="12dp" android:background="@drawable/bg_outline_button"
+        android:clickable="true" android:focusable="true" android:gravity="center"
+        android:text="Continue as Guest" android:textColor="@color/purple_primary"
+        android:textSize="15sp" android:textStyle="bold" />
+</LinearLayout>
+</ScrollView>

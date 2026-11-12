@@ -1,0 +1,19 @@
+<resources>
+    <color name="surface">#1E1A2E</color>
+    <color name="bg_top">#15111F</color>
+    <color name="bg_bottom">#221A38</color>
+    <color name="card_stroke">#2E2748</color>
+    <color name="ring_track">#3A3160</color>
+    <color name="purple_primary">#A58BFF</color>
+    <color name="lavender">#2D2547</color>
+    <color name="lavender_soft">#251F3C</color>
+    <color name="text_dark">#F3EFFF</color>
+    <color name="text_gray">#A8A1C3</color>
+    <color name="nav_inactive">#7F7899</color>
+    <color name="divider">#2A2440</color>
+    <color name="card_blue">#2A2B52</color>
+    <color name="card_peach">#3B2F24</color>
+    <color name="card_mint">#243629</color>
+    <color name="red_soft">#3D2326</color>
+    <color name="red">#FF8A80</color>
+</resources>
